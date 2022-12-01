@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simple_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simple_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="609299667fs"></ZoomStartTime>
+      <ZoomEndTime time="675499668fs"></ZoomEndTime>
+      <Cursor1Time time="635000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="33" />
+   <wvobject type="logic" fp_name="/simple_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/start">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/inst">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/valid_inst">
+      <obj_property name="ElementShortName">valid_inst</obj_property>
+      <obj_property name="ObjectShortName">valid_inst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/ready_inst">
+      <obj_property name="ElementShortName">ready_inst</obj_property>
+      <obj_property name="ObjectShortName">ready_inst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/inst_done">
+      <obj_property name="ElementShortName">inst_done</obj_property>
+      <obj_property name="ObjectShortName">inst_done</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/opcode">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/opregs1">
+      <obj_property name="ElementShortName">opregs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opregs1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/opregs2">
+      <obj_property name="ElementShortName">opregs2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opregs2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/opregout">
+      <obj_property name="ElementShortName">opregout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">opregout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider31" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/d1/pc">
+      <obj_property name="ElementShortName">pc[5:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/d1/pc_valid">
+      <obj_property name="ElementShortName">pc_valid</obj_property>
+      <obj_property name="ObjectShortName">pc_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/d1/pc_ready">
+      <obj_property name="ElementShortName">pc_ready</obj_property>
+      <obj_property name="ObjectShortName">pc_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/d1/mem">
+      <obj_property name="ElementShortName">mem[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/d1/inst_reg">
+      <obj_property name="ElementShortName">inst_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/a">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/b">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/res">
+      <obj_property name="ElementShortName">res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/res_valid">
+      <obj_property name="ElementShortName">res_valid</obj_property>
+      <obj_property name="ObjectShortName">res_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div_en">
+      <obj_property name="ElementShortName">div_en</obj_property>
+      <obj_property name="ObjectShortName">div_en</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/pipe_next">
+      <obj_property name="ElementShortName">pipe_next[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pipe_next[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider156" type="divider">
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/a">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/b">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/res">
+      <obj_property name="ElementShortName">res[31:0]</obj_property>
+      <obj_property name="ObjectShortName">res[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/div_en">
+      <obj_property name="ElementShortName">div_en</obj_property>
+      <obj_property name="ObjectShortName">div_en</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/res_valid">
+      <obj_property name="ElementShortName">res_valid</obj_property>
+      <obj_property name="ObjectShortName">res_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/simple_tb/dut/a1/div1/rem">
+      <obj_property name="ElementShortName">rem</obj_property>
+      <obj_property name="ObjectShortName">rem</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/q1">
+      <obj_property name="ElementShortName">q1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">q1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/n1">
+      <obj_property name="ElementShortName">n1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/simple_tb/dut/a1/div1/count_reg">
+      <obj_property name="ElementShortName">count_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count_reg[31:0]</obj_property>
+   </wvobject>
+</wave_config>
